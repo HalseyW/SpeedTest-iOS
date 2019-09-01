@@ -6,5 +6,9 @@ target 'SpeedTest' do
   use_frameworks!
 
   # Pods for SpeedTest
+  #Snapkit
+  pod 'SnapKit', '~> 5.0.0'
+  #Alamofire
+  pod 'Alamofire', '~> 5.0.0-beta.5'
 
 end
