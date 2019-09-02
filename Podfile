@@ -7,8 +7,8 @@ target 'SpeedTest' do
 
   # Pods for SpeedTest
   #Snapkit
-  pod 'SnapKit', '~> 5.0.0'
+  pod 'SnapKit', '~> 5.0.1'
   #Alamofire
-  pod 'Alamofire', '~> 5.0.0-beta.5'
+  pod 'Alamofire', '~> 4.8.2'
 
 end

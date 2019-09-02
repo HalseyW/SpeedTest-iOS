@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77FD766A231CF2B30043AD80 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FD7669231CF2B30043AD80 /* NetworkManager.swift */; };
 		C4DCE8825911737FCAC7295C /* Pods_SpeedTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8404EA356213CD8CE294F5BC /* Pods_SpeedTest.framework */; };
 		DFF7DA16231BCB0B00CC2F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF7DA15231BCB0B00CC2F30 /* AppDelegate.swift */; };
 		DFF7DA18231BCB0B00CC2F30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF7DA17231BCB0B00CC2F30 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77FD7669231CF2B30043AD80 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8404EA356213CD8CE294F5BC /* Pods_SpeedTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8512A1F7919E9D6AB24C95B /* Pods-SpeedTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedTest/Pods-SpeedTest.debug.xcconfig"; sourceTree = "<group>"; };
 		DFF7DA12231BCB0B00CC2F30 /* SpeedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +80,9 @@
 		DFF7DA14231BCB0B00CC2F30 /* SpeedTest */ = {
 			isa = PBXGroup;
 			children = (
-				DFF7DA15231BCB0B00CC2F30 /* AppDelegate.swift */,
 				DFF7DA17231BCB0B00CC2F30 /* ViewController.swift */,
+				77FD7669231CF2B30043AD80 /* NetworkManager.swift */,
+				DFF7DA15231BCB0B00CC2F30 /* AppDelegate.swift */,
 				DFF7DA19231BCB0B00CC2F30 /* Main.storyboard */,
 				DFF7DA1C231BCB0D00CC2F30 /* Assets.xcassets */,
 				DFF7DA1E231BCB0D00CC2F30 /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77FD766A231CF2B30043AD80 /* NetworkManager.swift in Sources */,
 				DFF7DA18231BCB0B00CC2F30 /* ViewController.swift in Sources */,
 				DFF7DA16231BCB0B00CC2F30 /* AppDelegate.swift in Sources */,
 			);
